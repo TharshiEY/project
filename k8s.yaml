@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: <DOCKER_IMAGE_URI>
+          image: 021891587588.dkr.ecr.eu-north-1.amazonaws.com/springboot-eks:latest
           ports:
             - containerPort: 8080
 
